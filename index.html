@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+     <head>
+          <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+      <!-- Site Properties -->
+      <title>360SRC后台管理系统</title>
+       <link rel="stylesheet" type="text/css" href="static/css/semantic.css" />
+       <link rel="stylesheet" type="text/css" href="static/css/monitor.css" />
+     </head>
+     <body >
+            <!--顶部标题区域-->
+          <div id="wrapper" style="height: 100%">
+              
+               <myheader></myheader>
+
+
+              <div class="im-full-width-div">
+                  
+
+                   <mymenu></mymenu>
+
+                   <div  class="im-content" >
+                     <router-view></router-view>
+
+                   
+
+                   </div>
+              </div>
+
+              <myfooter></myfooter>
+                             
+           </div> 
+
+     </body>
+    <!--<script type="text/javascript" src="static/scripts/jquery-2.2.4.js"></script>
+    <script type="text/javascript" src="static/scripts/semantic.js"></script>
+    <script type="text/javascript" src="static/scripts/monitor_main.js"></script>-->
+   
+    <script type="text/javascript" src="dist/build.js" ></script>
+</html>
